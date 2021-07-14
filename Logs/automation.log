@@ -1,0 +1,42 @@
+2021-07-14 13:22:43,560  INFO [main] nopCommerceSDET:66 - ************* Launching Browser *****************
+2021-07-14 13:22:43,867  INFO [main] nopCommerceSDET:72 - ************* Opening URL  *****************
+2021-07-14 13:22:50,466  INFO [main] nopCommerceSDET:79 - ************* Prvding user and password *****************
+2021-07-14 13:22:50,917  INFO [main] nopCommerceSDET:86 - ************* click on login *****************
+2021-07-14 13:30:59,301  INFO [main] nopCommerceSDET:66 - ************* Launching Browser *****************
+2021-07-14 13:30:59,353  INFO [main] nopCommerceSDET:72 - ************* Opening URL  *****************
+2021-07-14 13:31:07,292  INFO [main] nopCommerceSDET:79 - ************* Prvding user and password *****************
+2021-07-14 14:20:12,367  INFO [main] nopCommerceSDET:66 - ************* Launching Browser *****************
+2021-07-14 14:20:12,427  INFO [main] nopCommerceSDET:72 - ************* Opening URL  *****************
+2021-07-14 14:20:20,258  INFO [main] nopCommerceSDET:79 - ************* Prvding user and password *****************
+2021-07-14 14:23:12,248  INFO [main] nopCommerceSDET:66 - ************* Launching Browser *****************
+2021-07-14 14:23:12,326  INFO [main] nopCommerceSDET:72 - ************* Opening URL  *****************
+2021-07-14 14:23:19,684  INFO [main] nopCommerceSDET:79 - ************* Prvding user and password *****************
+2021-07-14 14:29:31,114  INFO [main] nopCommerceSDET:66 - ************* Launching Browser *****************
+2021-07-14 14:29:31,183  INFO [main] nopCommerceSDET:72 - ************* Opening URL  *****************
+2021-07-14 14:29:38,985  INFO [main] nopCommerceSDET:79 - ************* Prvding user and password *****************
+2021-07-14 14:35:05,681  INFO [main] nopCommerceSDET:66 - ************* Launching Browser *****************
+2021-07-14 14:35:05,829  INFO [main] nopCommerceSDET:72 - ************* Opening URL  *****************
+2021-07-14 14:35:12,730  INFO [main] nopCommerceSDET:79 - ************* Prvding user and password *****************
+2021-07-14 14:37:51,569  INFO [main] nopCommerceSDET:66 - ************* Launching Browser *****************
+2021-07-14 14:37:51,652  INFO [main] nopCommerceSDET:72 - ************* Opening URL  *****************
+2021-07-14 14:37:58,527  INFO [main] nopCommerceSDET:79 - ************* Prvding user and password *****************
+2021-07-14 14:43:59,701  INFO [main] nopCommerceSDET:66 - ************* Launching Browser *****************
+2021-07-14 14:43:59,755  INFO [main] nopCommerceSDET:72 - ************* Opening URL  *****************
+2021-07-14 14:44:07,846  INFO [main] nopCommerceSDET:79 - ************* Prvding user and password *****************
+2021-07-14 14:44:28,411  INFO [main] nopCommerceSDET:86 - ************* click on login *****************
+2021-07-14 14:48:39,573  INFO [main] nopCommerceSDET:66 - ************* Launching Browser *****************
+2021-07-14 14:48:39,664  INFO [main] nopCommerceSDET:72 - ************* Opening URL  *****************
+2021-07-14 14:48:46,152  INFO [main] nopCommerceSDET:79 - ************* Prvding user and password *****************
+2021-07-14 14:49:06,600  INFO [main] nopCommerceSDET:86 - ************* click on login *****************
+2021-07-14 14:49:14,254  INFO [main] nopCommerceSDET:101 - ************* Login Passed *****************
+2021-07-14 14:49:17,279  INFO [main] nopCommerceSDET:110 - ************* clciking on logout *****************
+2021-07-14 14:49:24,157  INFO [main] nopCommerceSDET:101 - ************* Login Passed *****************
+2021-07-14 14:49:27,183  INFO [main] nopCommerceSDET:117 - ************* cloding browser *****************
+2021-07-14 14:55:19,990  INFO [main] nopCommerceSDET:66 - ************* Launching Browser *****************
+2021-07-14 14:55:20,079  INFO [main] nopCommerceSDET:72 - ************* Opening URL  *****************
+2021-07-14 14:55:26,637  INFO [main] nopCommerceSDET:79 - ************* Prvding user and password *****************
+2021-07-14 14:55:47,048  INFO [main] nopCommerceSDET:86 - ************* click on login *****************
+2021-07-14 14:55:53,283  INFO [main] nopCommerceSDET:101 - ************* Login Passed *****************
+2021-07-14 14:55:56,317  INFO [main] nopCommerceSDET:110 - ************* clciking on logout *****************
+2021-07-14 14:56:03,200  INFO [main] nopCommerceSDET:101 - ************* Login Passed *****************
+2021-07-14 14:56:06,237  INFO [main] nopCommerceSDET:117 - ************* cloding browser *****************
