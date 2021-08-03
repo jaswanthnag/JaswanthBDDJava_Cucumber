@@ -26,6 +26,15 @@ import Jaswanth.Automation.Objects.SearchCustomerPageObjects;
 public class LoginPageSteps extends BaseClass
 {
 
+	//Sample class for practise
+	public void sampleTest()
+	{
+		System.setProperty("webdriver.chrome.driver",configProp.getProperty("chromepath"));
+		WebDriver cdriver = new ChromeDriver();
+		
+	}
+	
+	
 	@Before
 	public void setup() throws IOException
 	{

@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		features=".//features//",
 		glue="Jaswanth.Automation.StepDefinitions",
 		monochrome=true,
-		tags= {"@sanity"},
+		tags= {"@regression"},
 		plugin= {"pretty","html:test-output"}
 		)
 public class TestRunner {
