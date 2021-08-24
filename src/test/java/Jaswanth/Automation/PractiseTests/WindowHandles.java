@@ -23,28 +23,31 @@ public class WindowHandles {
 
         //Launching the site.				
         driver.get("http://demo.guru99.com/popup.php");
-        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        
+       // driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         Thread.sleep(5000);
         driver.manage().window().maximize();
         Thread.sleep(5000);
         driver.findElement(By.xpath("//*[contains(@href,'popup.php')]")).click();
         Thread.sleep(5000);
+        
         String MainWindow = driver.getWindowHandle();
         System.out.println("MainWindow " + MainWindow);	
+        
+      
         
        // s1 = 0,1,2,3
         // To handle all new opened window.				
         Set < String > s1 = driver.getWindowHandles();
         Iterator < String > i1 = s1.iterator();
-
         while (i1.hasNext()) {
             String ChildWindow = i1.next();
-
             if (!MainWindow.equalsIgnoreCase(ChildWindow)) {
 
                 
                 try
                 {
+                	System.out.println("ChildWindow " + ChildWindow);	
                 	// Switching to Child window
                     driver.switchTo().window(ChildWindow);
                     

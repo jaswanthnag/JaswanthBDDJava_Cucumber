@@ -19,15 +19,18 @@ public class HandlingDropdownsSelect {
 	        driver.manage().window().maximize();
 
 			Select drpCountry = new Select(driver.findElement(By.name("country")));
-			drpCountry.selectByVisibleText("ANTARCTICA");
+			//drpCountry.selectByVisibleText("ANTARCTICA");
+			drpCountry.selectByIndex(3);
 			Thread.sleep(5000);
 			
 			//Selecting Items in a Multiple SELECT elements
-			driver.get("http://jsbin.com/osebed/2");
-			Thread.sleep(5000);
-			Select fruits = new Select(driver.findElement(By.id("fruits")));
-			fruits.selectByVisibleText("Banana");
-			fruits.selectByIndex(3);
+			
+			/*
+			 * driver.get("http://jsbin.com/osebed/2"); Thread.sleep(5000); Select fruits =
+			 * new Select(driver.findElement(By.id("fruits")));
+			 * fruits.selectByVisibleText("Banana"); fruits.selectByIndex(3);
+			 */
+			 
 
 
 	}

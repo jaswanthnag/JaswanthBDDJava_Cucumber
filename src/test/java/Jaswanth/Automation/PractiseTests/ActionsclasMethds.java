@@ -13,20 +13,32 @@ public class ActionsclasMethds
 		System.setProperty("webdriver.chrome.driver","G:\\Selenium BDD Framework\\JaswanthBDDJava_Cucumber\\browser_drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		/*
-		 * driver.get("https://www.browserstack.com/"); Thread.sleep(5000);
-		 * driver.manage().window().maximize(); Thread.sleep(6000);
-		 * driver.findElement(By.
-		 * xpath("//button[@aria-label='Accept all the policies and terms']")).click();
-		 * Thread.sleep(6000);
-		 */
+	
+		
+		 // http://demo.guru99.com/test/simple_context_menu.html
+		  //driver.get("https://www.browserstack.com/"); 
+			/*
+			 * driver.get("http://demo.guru99.com/test/simple_context_menu.html");
+			 * Thread.sleep(5000); driver.manage().window().maximize(); Thread.sleep(6000);
+			 */
+		 //driver.findElement(By.xpath("//button[@aria-label='Accept all the policies and terms']")).click();
+		// Thread.sleep(6000);
+		  //Actions action = new Actions(driver); 
+			/*
+			 * action.moveToElement(driver.findElement(By.
+			 * cssSelector("div.product-cards-wrapper--click a[title='Live']")));
+			 * action.build().perform(); Thread.sleep(6000);
+			 */
+		 
         
-		/*
-		 * //Click Actions action = new Actions(driver); WebElement element =
-		 * driver.findElement(By.xpath("//a[text()='Get started free']"));
-		 * Thread.sleep(6000); action.moveToElement(element).click();
-		 * action.build().perform();
-		 */
+		
+			/*
+			 * //Click Actions action = new Actions(driver); WebElement element = WebElement
+			 * element = driver.findElement(By.xpath("//*[@id='product-menu-toggle']"));
+			 * //Thread.sleep(6000); action.moveToElement(element);
+			 * action.build().perform(); Thread.sleep(6000);
+			 */
+		 
 		
 		/*
 		 * //Mouse Hover Actions ac = new Actions(driver); WebElement live =
@@ -38,28 +50,46 @@ public class ActionsclasMethds
 		 * automate.click(); Thread.sleep(2000);
 		 */
 
-		/*
-		 * //Double click Actions a = new Actions(driver); WebElement trialaction =
-		 * driver.findElement(By.xpath("//a[@id='free-trial-link-anchor']"));
-		 * a.doubleClick(trialaction).build().perform();
-		 */
-        
-        driver.get("http://demo.guru99.com/test/drag_drop.html");					
-        Thread.sleep(5000);
-		 driver.manage().window().maximize(); 
-		 Thread.sleep(6000);
+		
+		  //Double click
 		 
-		//Element which needs to drag.    		
-        WebElement From=driver.findElement(By.xpath("//*[@id='credit2']/a"));	
-        
-         //Element on which need to drop.		
-         WebElement To=driver.findElement(By.xpath("//*[@id='bank']/li"));	
-         
-         //Using Action class for drag and drop.		
-         Actions act=new Actions(driver);	
-         
-	    //Dragged and dropped.		
-         act.dragAndDrop(From, To).build().perform();
+			/*
+			 * Actions a = new Actions(driver); // WebElement trialaction =
+			 * driver.findElement(By.xpath("//a[@id='free-trial-link-anchor']"));
+			 * a.doubleClick(driver.findElement(By.xpath("//a[@id='free-trial-link-anchor']"
+			 * ))).build().perform();
+			 * 
+			 */
+		 
+		 
+		 //Right Click
+			/*
+			 * Actions action = new Actions(driver);
+			 * 
+			 * WebElement link = driver.findElement(By.cssSelector(".context-menu-one"));
+			 * action.contextClick(link).build().perform();
+			 */
+		
+
+		
+        //Drag and Drop
+		
+		  driver.get("http://demo.guru99.com/test/drag_drop.html"); 
+		  Thread.sleep(5000);
+		  driver.manage().window().maximize(); Thread.sleep(6000);
+		  
+		  //Element which needs to drag. WebElement
+		  WebElement Source = driver.findElement(By.xpath("//*[@id='credit2']/a"));
+		  
+		  //Element on which need to drop. WebElement
+		  WebElement  Destination = driver.findElement(By.xpath("//*[@id='bank']/li"));
+		  
+		  //Using Action class for drag and drop. 
+		  Actions act=new Actions(driver);
+		  
+		  //Dragged and dropped. 
+		  act.dragAndDrop(Source,Destination).build().perform();
+		 
 
 
 	}
