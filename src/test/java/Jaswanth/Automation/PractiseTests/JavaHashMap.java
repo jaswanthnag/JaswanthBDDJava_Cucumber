@@ -9,11 +9,10 @@ public class JavaHashMap {
 		
 		 HashMap<Integer,String> map = new HashMap<Integer,String>();//Creating HashMap    
 		   map.put(1,"Mango");  //Put elements in Map  
-		   map.put(2,"Apple");    
+		   map.put(5,"Apple");    // 1 - mango 2 - Apple 3 -bananna
 		   map.put(3,"Banana");   
-		   map.put(4,"Grapes");  
+		   map.put(null,"Grapes");  
 		   System.out.println("Iterating Hashmap...");  
-		   
 		   for(Map.Entry m : map.entrySet()){    
 		    System.out.println(m.getKey()+" "+m.getValue());    
 		   }  
@@ -21,3 +20,5 @@ public class JavaHashMap {
 	}
 	
 }
+
+

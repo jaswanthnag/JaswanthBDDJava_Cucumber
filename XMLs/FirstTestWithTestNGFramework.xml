@@ -3,7 +3,7 @@
 <suite name="FirstTestWithTestNGFramework">
 <test name="Test">
 <classes>
-<class name="Jaswanth.Automation.PractiseTests.FirstTestWithTestNGFramework"/>
+<class name="Jaswanth.Automation.PractiseTests.SampleTestNGAnnotationsOrder"/>
 </classes>
 </test> <!-- Test -->
 </suite> <!-- Suite -->

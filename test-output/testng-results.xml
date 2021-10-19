@@ -1,33 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="FirstTestWithTestNGFramework" duration-ms="26720" started-at="2021-08-18T04:05:52Z" finished-at="2021-08-18T04:06:19Z">
+  <suite name="FirstTestWithTestNGFramework" duration-ms="65" started-at="2021-10-14T10:25:01 IST" finished-at="2021-10-14T10:25:01 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="26720" started-at="2021-08-18T04:05:52Z" finished-at="2021-08-18T04:06:19Z">
-      <class name="Jaswanth.Automation.PractiseTests.FirstTestWithTestNGFramework">
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:Jaswanth.Automation.PractiseTests.FirstTestWithTestNGFramework@7d3a22a9]" name="testSetup" is-config="true" duration-ms="5832" started-at="2021-08-18T09:35:52Z" finished-at="2021-08-18T09:35:58Z">
+    <test name="Test" duration-ms="65" started-at="2021-10-14T10:25:01 IST" finished-at="2021-10-14T10:25:01 IST">
+      <class name="Jaswanth.Automation.PractiseTests.SampleTestNGAnnotationsOrder">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Jaswanth.Automation.PractiseTests.SampleTestNGAnnotationsOrder@3b94d659]" name="beforeTest" is-config="true" duration-ms="8" started-at="2021-10-14T10:25:01 IST" finished-at="2021-10-14T10:25:01 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Jaswanth.Automation.PractiseTests.FirstTestWithTestNGFramework@7d3a22a9]" name="openBrowser" is-config="true" duration-ms="18970" started-at="2021-08-18T09:35:58Z" finished-at="2021-08-18T09:36:17Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Jaswanth.Automation.PractiseTests.SampleTestNGAnnotationsOrder@3b94d659]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-10-14T10:25:01 IST" finished-at="2021-10-14T10:25:01 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="signUp()[pri:0, instance:Jaswanth.Automation.PractiseTests.FirstTestWithTestNGFramework@7d3a22a9]" name="signUp" duration-ms="595" started-at="2021-08-18T09:36:17Z" description="This method validates the sign up functionality" finished-at="2021-08-18T09:36:17Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="scenario3()[pri:0, instance:Jaswanth.Automation.PractiseTests.SampleTestNGAnnotationsOrder@3b94d659]" name="scenario3" duration-ms="7" started-at="2021-10-14T10:25:01 IST" finished-at="2021-10-14T10:25:01 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="postSignUp()[pri:0, instance:Jaswanth.Automation.PractiseTests.FirstTestWithTestNGFramework@7d3a22a9]" name="postSignUp" is-config="true" duration-ms="17" started-at="2021-08-18T09:36:17Z" finished-at="2021-08-18T09:36:17Z">
+        </test-method> <!-- scenario3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Jaswanth.Automation.PractiseTests.SampleTestNGAnnotationsOrder@3b94d659]" name="afterMethod" is-config="true" duration-ms="2" started-at="2021-10-14T10:25:01 IST" finished-at="2021-10-14T10:25:01 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postSignUp -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:Jaswanth.Automation.PractiseTests.FirstTestWithTestNGFramework@7d3a22a9]" name="afterClass" is-config="true" duration-ms="1247" started-at="2021-08-18T09:36:17Z" finished-at="2021-08-18T09:36:19Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Jaswanth.Automation.PractiseTests.SampleTestNGAnnotationsOrder@3b94d659]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-10-14T10:25:01 IST" finished-at="2021-10-14T10:25:01 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- Jaswanth.Automation.PractiseTests.FirstTestWithTestNGFramework -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="scenario1()[pri:1, instance:Jaswanth.Automation.PractiseTests.SampleTestNGAnnotationsOrder@3b94d659]" name="scenario1" duration-ms="2" started-at="2021-10-14T10:25:01 IST" finished-at="2021-10-14T10:25:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Jaswanth.Automation.PractiseTests.SampleTestNGAnnotationsOrder@3b94d659]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-10-14T10:25:01 IST" finished-at="2021-10-14T10:25:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Jaswanth.Automation.PractiseTests.SampleTestNGAnnotationsOrder@3b94d659]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-10-14T10:25:01 IST" finished-at="2021-10-14T10:25:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Jaswanth.Automation.PractiseTests.SampleTestNGAnnotationsOrder -->
     </test> <!-- Test -->
   </suite> <!-- FirstTestWithTestNGFramework -->
 </testng-results>

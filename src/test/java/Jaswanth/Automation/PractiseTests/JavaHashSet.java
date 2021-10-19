@@ -8,7 +8,8 @@ public class JavaHashSet {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//Creating HashSet and adding elements  
-		HashSet<String> set=new HashSet<String>();  
+		HashSet<String> set=new HashSet<String>(); 
+	
 		set.add("Ravi");  
 		set.add("Vijay");  
 		set.add("Ravi");  

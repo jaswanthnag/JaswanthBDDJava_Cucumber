@@ -102,6 +102,7 @@ public class LoginPageSteps
 		//logger.info("************* Prvding user and password *****************");
 		lp.setUserName(email);
 		lp.setPassword(password);
+		
 	}
 
 	@When("Click on Login")

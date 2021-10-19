@@ -21,7 +21,7 @@ public class RestAssuredAPIScript
         String baseUrl = "https://bookstore.toolsqa.com";
         Response response;
         String jsonString;
-        String token;
+        String token = null;
 
         RestAssured.baseURI = baseUrl;
         RequestSpecification request = RestAssured.given();
@@ -29,6 +29,7 @@ public class RestAssuredAPIScript
 
         //Step - 1
         //Test will start from generating Token for Authorization
+		
 		
 		  request.header("Content-Type", "application/json");
 		  
@@ -39,15 +40,17 @@ public class RestAssuredAPIScript
 		  
 		  jsonString = response.asString();
 		  Assert.assertTrue(jsonString.contains("token"));
+		  System.out.println("Access Token" + JsonPath.from(jsonString).get("token"));
 		  
-		  //This token will be used in later requests String token =
-		  token = JsonPath.from(jsonString).get("token");
+		  //This token will be used in later requests String token = token =
+		  JsonPath.from(jsonString).get("token");
+		 
 		 
 
 
         //Step - 2
         // Get Books - No Auth is required for this.
-        response = request.get("/BookStore/v1/Books");
+        response = request.get("/BookStore/v1/Books");// https://bookstore.toolsqa.com//BookStore/v1/Books
         System.out.println("Get Status Code: " + response.getStatusCode());
 
         Assert.assertEquals(response.getStatusCode(), 200);
@@ -66,6 +69,7 @@ public class RestAssuredAPIScript
         //The token we had saved in the variable before from response in Step 1, 
         //we will be passing in the headers for each of the succeeding request
 		
+		
 		  request.header("Authorization", "Bearer " + token) .header("Content-Type",
 		  "application/json");
 		  
@@ -75,6 +79,7 @@ public class RestAssuredAPIScript
 		  
 		  System.out.println("Post Status Code: " + response.getStatusCode());
 		  Assert.assertEquals( 201, response.getStatusCode());
+		 
 		 
 
 
