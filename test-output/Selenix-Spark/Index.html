@@ -59,7 +59,7 @@
           </li>
             <li class="m-r-10">
                 <a href="#">
-                    <span class="badge badge-primary">Oct 19, 2021 06:11:24 PM</span>
+                    <span class="badge badge-primary">Oct 23, 2021 11:41:22 am</span>
                 </a>
             </li>
         </ul>
@@ -81,14 +81,6 @@
             <i class="fa fa-tag"></i>
           </span>
           <span class="title">Tags</span>
-        </a>
-      </li>
-      <li class="nav-item dropdown" onclick="toggleView('exception-view')">
-        <a id="nav-ex" class="dropdown-toggle" href="exception.html">
-          <span class="icon-holder">
-            <i class="fa fa-bug"></i>
-          </span>
-          <span class="title">Exception</span>
         </a>
       </li>
       <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
@@ -120,11 +112,11 @@
 					</a>
 					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
-						<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>
 						
 						
 						
-						<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning pull-right"></span></a>
+						
+						
 						<div class="dropdown-divider"></div>
 						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 					</ul>
@@ -134,35 +126,35 @@
 					<i class="fa fa-tag"></i>
 					</a>
 					<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-						<a class="dropdown-item" href="#">@regression99</a>
+						<a class="dropdown-item" href="#">@sanity</a>
 					</ul>
 				</li>
 			</ul>
 		</div>
 		<div class="test-list-wrapper scrollable">
 			<ul class="test-list-item">
-				<li class="test-item"  status="fail" test-id="1"
+				<li class="test-item"  status="pass" test-id="1"
 					author=""
 					tag=""
 					device="">
-					<div class="status-avatar fail-bg">
-						<i class="fa fa-times text-white"></i>
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
 					</div>
 					<div class="open-test">
 						<div class="test-detail">
 							<p class="name">Login</p>
-							<p class="duration text-sm">0h 0m 42s+632ms</p>
-							<span class="datetime">18:11:32 PM</span>
+							<p class="duration text-sm">0h 0m 12s+397ms</p>
+							<span class="datetime">11:41:26 am</span>
 						</div>
 					</div>
 					<div class="test-contents d-none">
 						<div class="detail-head">
 							<div class="p-v-10 d-inline-block">
 								<div class="info">
-									<h5 class="test-status text-fail">Login</h5>
-									<span class='badge badge-success'>10.19.2021 18:11:32</span>
-									<span class='badge badge-danger'>10.19.2021 18:12:15</span>
-									<span class='badge badge-default'>0h 0m 42s+632ms</span>
+									<h5 class="test-status text-pass">Login</h5>
+									<span class='badge badge-success'>10.23.2021 11:41:26</span>
+									<span class='badge badge-danger'>10.23.2021 11:41:39</span>
+									<span class='badge badge-default'>0h 0m 12s+397ms</span>
 								</div>
 								<div class="m-t-10 m-l-5">
 									
@@ -174,87 +166,35 @@
 	<div class="card">
 		<div class="card-header" role="tab">
 			<div class="card-title pl-3">
-				<div class="node">Successful Login with Valid Credentials</div>
-				<div class="status-avatar float-left fail-bg">
-					<i class="fa fa-times text-white"></i>
+				<div class="node">Launch</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
 				</div>
-					<div class="status-avatar float-right mr-4">
-						<i class="fa fa-paperclip"></i>
-					</div>
 			</div>
 		</div>
 				<div class="collapse">
 					<div class="card-body">
-							<div class="d-flex align-items-center justify-content-start given" title="Jaswanth.Automation.StepDefinitions.LoginPageSteps.user_Launch_Chrome_browser()">
+							<div class="d-flex align-items-center justify-content-start given" title="Algorithmic.Trading.StepDefinitions.LoginPageSteps.user_Launch_Chrome_browser()">
 								<span class="alert-icon pass-bg">
 									<i class="fa fa-check text-white"></i>
 								</span>
 								<span>Given User Launch Chrome browser</span>
 							</div>
 				<div class="details"></div>
-							<div class="d-flex align-items-center justify-content-start when" title="Jaswanth.Automation.StepDefinitions.LoginPageSteps.user_opens_URL(java.lang.String)">
+							<div class="d-flex align-items-center justify-content-start when" title="Algorithmic.Trading.StepDefinitions.LoginPageSteps.user_opens_URL(java.lang.String)">
 								<span class="alert-icon pass-bg">
 									<i class="fa fa-check text-white"></i>
 								</span>
-								<span>When User opens URL "http://admin-demo.nopcommerce.com/login"</span>
+								<span>When User opens URL "https://www.dbs.com/hack2hire/in/index.html"</span>
 							</div>
 				<div class="details"></div>
-							<div class="d-flex align-items-center justify-content-start and" title="Jaswanth.Automation.StepDefinitions.LoginPageSteps.user_enters_Email_as_and_Password_as(java.lang.String,java.lang.String)">
+							<div class="d-flex align-items-center justify-content-start then" title="Algorithmic.Trading.StepDefinitions.LoginPageSteps.close_browser()">
 								<span class="alert-icon pass-bg">
 									<i class="fa fa-check text-white"></i>
 								</span>
-								<span>And User enters Email as "admin@yourstore.com" and Password as "admin"</span>
+								<span>Then close browser</span>
 							</div>
 				<div class="details"></div>
-							<div class="d-flex align-items-center justify-content-start and" title="Jaswanth.Automation.StepDefinitions.LoginPageSteps.click_on_Login()">
-								<span class="alert-icon pass-bg">
-									<i class="fa fa-check text-white"></i>
-								</span>
-								<span>And Click on Login</span>
-							</div>
-				<div class="details"></div>
-							<div class="d-flex align-items-center justify-content-start then" title="Jaswanth.Automation.StepDefinitions.LoginPageSteps.page_Title_should_be(java.lang.String)">
-								<span class="alert-icon pass-bg">
-									<i class="fa fa-check text-white"></i>
-								</span>
-								<span>Then Page Title should be "Dashboard / nopCommerce administration"</span>
-							</div>
-				<div class="details"></div>
-							<div class="d-flex align-items-center justify-content-start when" title="Jaswanth.Automation.StepDefinitions.LoginPageSteps.user_click_on_Log_out_link()">
-								<span class="alert-icon pass-bg">
-									<i class="fa fa-check text-white"></i>
-								</span>
-								<span>When User click on Log out link</span>
-							</div>
-				<div class="details"></div>
-							<div class="d-flex align-items-center justify-content-start then" title="Jaswanth.Automation.StepDefinitions.LoginPageSteps.page_Title_should_be(java.lang.String)">
-								<span class="alert-icon fail-bg">
-									<i class="fa fa-times text-white"></i>
-								</span>
-								<span>Then Page Title should be "Your store. Login Test"</span>
-							</div>
-				<textarea disabled class="code-block">org.junit.ComparisonFailure: expected:<Your store. Login[ Test]> but was:<Your store. Login[]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at Jaswanth.Automation.StepDefinitions.LoginPageSteps.page_Title_should_be(LoginPageSteps.java:126)
-	at ?.Page Title should be "Your store. Login Test"(file:///G:/Selenium%20BDD%20Framework/JaswanthBDDJava_Cucumber/./features/Login.feature:11)
-</textarea>
-							<div class="d-flex align-items-center justify-content-start and" title="Jaswanth.Automation.StepDefinitions.LoginPageSteps.close_browser()">
-								<span class="alert-icon skip-bg">
-									<i class="fa fa-long-arrow-right text-white"></i>
-								</span>
-								<span>And close browser</span>
-							</div>
-				<div class="details">Step skipped</div>
-							<div class="d-flex align-items-center justify-content-start asterisk" title="">
-								<span class="alert-icon pass-bg">
-									<i class="fa fa-check text-white"></i>
-								</span>
-								<span>Jaswanth.Automation.StepDefinitions.BaseClass.tearDown(io.cucumber.java.Scenario)</span>
-							</div>
-				<div class="details">this is my failure message</div>
-				<div class="details"></div>
-				<div class="details"><img class='r-img' onerror='this.style.display="none"' data-featherlight='../embedded1.png' src='../embedded1.png'></div>
 					</div>
 				</div>
 	</div>
@@ -301,11 +241,11 @@
 				<li class="test-item">
 					<div class="open-test">
 						<div class="test-detail">
-							<p class="name">@regression99</p>
+							<p class="name">@sanity</p>
 							<p class="duration text-sm">1 tests</p>
 							<span class="datetime">
+							<span class='badge badge-success'>1</span>
 							
-							<span class='badge badge-danger'>1</span>
 							
 							
 							</span>
@@ -313,9 +253,9 @@
 					</div>
 					<div class="test-contents d-none">
 						<div class="info">
-							<h4>@regression99</h4>
+							<h4>@sanity</h4>
+							<span status="pass" class='badge badge-success'>1 passed</span>
 							
-							<span status="fail" class='badge badge-danger'>1 failed</span>
 							
 							
 						</div>
@@ -328,92 +268,17 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr class="tag-test-status" status="fail">
+								<tr class="tag-test-status" status="pass">
 									<td>
-										<div class='status-avatar fail-bg'>
-											<i class="fa fa-times text-white"></i>
+										<div class='status-avatar pass-bg'>
+											<i class="fa fa-check text-white"></i>
 										</div>
 									</td>
-									<td>18:11:32 PM</td>
+									<td>11:41:26 am</td>
 									<td class='linked' test-id='2'>
-										Successful Login with Valid Credentials
+										Launch
 										<div class="">
-											<span class="badge badge-default">Login.Successful Login with Valid Credentials</span>
-										</div>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class="test-content scrollable">
-		<div class="test-content-tools">
-			<ul>
-				<li>
-					<a class="back-to-test" href="javascript:void(0)">
-					<i class="fa fa-arrow-left"></i>
-					</a>
-				</li>
-			</ul>
-		</div>
-		<div class="test-content-detail">
-			<div class="detail-body"></div>
-		</div>
-	</div>
-</div><div class="test-wrapper row exception-view attributes-view">
-	<div class="test-list">
-		<div class="test-list-tools">
-			<ul class="tools pull-left">
-				<li>
-					<a href="">
-					<span class="font-size-14">Exception</span>
-					</a>
-				</li>
-			</ul>
-			<ul class="tools text-right">
-				<li>
-					<a href="#">
-					<span class="badge badge-primary">1</span>
-					</a>
-				</li>
-			</ul>
-		</div>
-		<div class="test-list-wrapper scrollable">
-			<ul class="test-list-item">
-				<li class="test-item">
-					<div class="open-test">
-						<div class="test-detail">
-							<p class="name">org.junit.ComparisonFailure</p>
-							<p class="duration text-sm">1 tests</p>
-						</div>
-					</div>
-					<div class="test-contents d-none">
-						<div class="info">
-							<h4>org.junit.ComparisonFailure</h4>
-						</div>
-						<table class='table table-sm mt-4'>
-							<thead>
-								<tr>
-									<th class="status-col">Status</th>
-									<th class="timestamp-col">Timestamp</th>
-									<th>TestName</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>
-										<div class='status-avatar fail-bg'>
-											<i class="fa fa-times text-white"></i>
-										</div>
-									</td>
-									<td>18:12:15 PM</td>
-									<td class='linked' test-id='10'>
-										Then Page Title should be "Your store. Login Test"
-										<div class="">
-											<span class="badge badge-default">Successful Login with Valid Credentials</span>
+											<span class="badge badge-default">Login.Launch</span>
 										</div>
 									</td>
 								</tr>
@@ -452,12 +317,12 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<div><small data-tooltip='0%'>
-						<b>0</b> features passed
+					<div><small data-tooltip='100%'>
+						<b>1</b> features passed
 						</small>
 					</div>
 					<div>
-						<small data-tooltip='100%'><b>1</b> features failed, 
+						<small data-tooltip='0%'><b>0</b> features failed, 
 						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 						</small>
 					</div>
@@ -475,9 +340,9 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+					<div><small data-tooltip='100%'><b>1</b> scenarios passed</small></div>
 					<div>
-						<small data-tooltip='100%'><b>1</b> scenarios failed, 
+						<small data-tooltip='0%'><b>0</b> scenarios failed, 
 						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 						</small>
 					</div>
@@ -495,10 +360,10 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<div><small data-tooltip='77.778%'><b>7</b> steps passed</small></div>
+					<div><small data-tooltip='100%'><b>3</b> steps passed</small></div>
 					<div>
-						<small data-tooltip='11.111%'><b>1</b> steps failed, 
-						<b>1</b> skipped, <b data-tooltip='11.111%'>0</b> others
+						<small data-tooltip='0%'><b>0</b> steps failed, 
+						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 						</small>
 					</div>
 				</div>
@@ -515,7 +380,7 @@
 							<h2 class="font-size-28 font-weight-light mt-3">1</h2>
 							<span class="text-semibold text-success font-size-15">
 							<i class="ti-arrow-up font-size-11"></i> 
-							<span>.00%</span>
+							<span>100.00%</span>
 							</span>
 						</div>
 						<div class="align-self-end">
@@ -534,7 +399,7 @@
 							<h2 class="font-size-28 font-weight-light mt-3">1</h2>
 							<span class="text-semibold text-success font-size-15">
 							<i class="ti-arrow-up font-size-11"></i> 
-							<span>.00%</span>
+							<span>100.00%</span>
 							</span>
 						</div>
 						<div class="align-self-end">
@@ -550,7 +415,7 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Start</h6>
-							<h4 class="font-weight-light mt-4">Oct 19, 2021 06:11:24 PM</h4>
+							<h4 class="font-weight-light mt-4">Oct 23, 2021 11:41:22 am</h4>
 							<span class="text-semibold text-success font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -566,7 +431,7 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Duration</h6>
-							<h4 class="font-weight-light mt-4">0h 0m 50s+454ms</h4>
+							<h4 class="font-weight-light mt-4">0h 0m 16s+475ms</h4>
 							<span class="text-semibold font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -610,12 +475,12 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td>@regression99</td>
-								<td>0</td>
+								<td>@sanity</td>
 								<td>1</td>
 								<td>0</td>
+								<td>0</td>
 								<td>
-									0%
+									100%
 								</td>
 							</tr>
 						</tbody>
@@ -628,48 +493,48 @@
 <script>
 	var statusGroup = {
 	    parentCount: 1,
-		passParent: 0,
-		failParent: 1,
+		passParent: 1,
+		failParent: 0,
 		fatalParent: 0,
 		errorParent: 0,
 		warningParent: 0,
 		skipParent: 0,
-		exceptionsParent: 1,
+		exceptionsParent: 0,
 		childCount: 1,
-		passChild: 0,
-		failChild: 1,
+		passChild: 1,
+		failChild: 0,
 		fatalChild: 0,
 		errorChild: 0,
 		warningChild: 0,
 		skipChild: 0,
 		infoChild: 0,
 		debugChild: 0,
-		exceptionsChild: 1,
-		grandChildCount: 9,
-		passGrandChild: 7,
-		failGrandChild: 1,
+		exceptionsChild: 0,
+		grandChildCount: 3,
+		passGrandChild: 3,
+		failGrandChild: 0,
 		fatalGrandChild: 0,
 		errorGrandChild: 0,
 		warningGrandChild: 0,
-		skipGrandChild: 1,
+		skipGrandChild: 0,
 		infoGrandChild: 0,
 		debugGrandChild: 0,
-		exceptionsGrandChild: 2,
-		eventsCount: 10,
-		passEvents: 6,
-		failEvents: 1,
+		exceptionsGrandChild: 0,
+		eventsCount: 3,
+		passEvents: 3,
+		failEvents: 0,
 		fatalEvents: 0,
 		errorEvents: 0,
 		warningEvents: 0,
-		skipEvents: 1,
-		infoEvents: 2,
+		skipEvents: 0,
+		infoEvents: 0,
 		debugEvents: 0,
 		exceptionsEvents: 0
 	};
 </script>
 <script>
 	var timeline = {
-	        "Login":42.632
+	        "Login":12.397
 	};
 </script>
                 </div>
